@@ -56,7 +56,7 @@ An RC charging table can now be used to determine approximately how long it will
 
 From this table we determine that it takes about 1RC (50 ms) of **SW1** remaining as an open circuit for the **555 Timer**'s output 
 to return to a low state.
-> Note that based on the behaviour described above in _trigger behaviour_ if **SW1** reinitiates the path from **C1** to **GND**, 
+> Note that based on the behaviour described above in _trigger behaviour_, if **SW1** reinitiates the path from **C1** to **GND**, 
 > even momemtarily, **C1** will dump all of it's charge and return to `0V`, resetting the charging 'timer'. It is this property that 
 > gives this circuit its excellent debounce characteristics because 50 ms is a long period of time with respect to any intermittent 
 > contact on **SW1** which may cause unwanted clock pulses; however, from a user's perspective, 50 ms is not a long enough interval 
