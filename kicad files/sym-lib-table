@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name chip_graphic)(type Legacy)(uri ${KIPRJMOD}/chip_graphic.lib)(options "")(descr ""))
+)
