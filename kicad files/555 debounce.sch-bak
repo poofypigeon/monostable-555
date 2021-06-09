@@ -16,217 +16,217 @@ $EndDescr
 $Comp
 L chip_graphic:555_Timer U?
 U 1 1 60B3E46D
-P 3725 2175
-F 0 "U?" H 3715 2255 50  0001 C CNN
-F 1 "555_Timer" V 3175 2825 50  0001 R CNN
-F 2 "" H 3725 2175 50  0001 C CNN
-F 3 "" H 3725 2175 50  0001 C CNN
-	1    3725 2175
+P 2300 2175
+F 0 "U?" H 2290 2255 50  0001 C CNN
+F 1 "555_Timer" V 1750 2825 50  0001 R CNN
+F 2 "" H 2300 2175 50  0001 C CNN
+F 3 "" H 2300 2175 50  0001 C CNN
+	1    2300 2175
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 60B4C9D2
-P 3850 1500
-F 0 "#PWR?" H 3850 1350 50  0001 C CNN
-F 1 "VCC" H 3865 1673 50  0000 C CNN
-F 2 "" H 3850 1500 50  0001 C CNN
-F 3 "" H 3850 1500 50  0001 C CNN
-	1    3850 1500
+P 2425 1500
+F 0 "#PWR?" H 2425 1350 50  0001 C CNN
+F 1 "VCC" H 2440 1673 50  0000 C CNN
+F 2 "" H 2425 1500 50  0001 C CNN
+F 3 "" H 2425 1500 50  0001 C CNN
+	1    2425 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 2950 3850 3675
+	2425 2950 2425 3675
 Wire Wire Line
-	4150 2400 4150 2250
+	2725 2400 2725 2250
 Wire Wire Line
-	4000 2950 4000 3100
+	2575 2950 2575 3100
 Wire Wire Line
-	4000 3100 4550 3100
+	2575 3100 3125 3100
 Wire Wire Line
-	4550 2250 4550 3100
+	3125 2250 3125 3100
 $Comp
 L pspice:CAP C1
 U 1 1 60B4DF5E
-P 4550 3425
-F 0 "C1" H 4372 3379 50  0000 R CNN
-F 1 "80nF" H 4372 3470 50  0000 R CNN
-F 2 "" H 4550 3425 50  0001 C CNN
-F 3 "~" H 4550 3425 50  0001 C CNN
-	1    4550 3425
+P 3125 3425
+F 0 "C1" H 2947 3379 50  0000 R CNN
+F 1 "80nF" H 2947 3470 50  0000 R CNN
+F 2 "" H 3125 3425 50  0001 C CNN
+F 3 "~" H 3125 3425 50  0001 C CNN
+	1    3125 3425
 	-1   0    0    1   
 $EndComp
-Connection ~ 4550 3100
-Connection ~ 3850 3675
+Connection ~ 3125 3100
+Connection ~ 2425 3675
 Wire Wire Line
-	3850 3675 3850 3700
+	2425 3675 2425 3700
 $Comp
 L power:GND #PWR?
 U 1 1 60B4CD04
-P 3850 3700
-F 0 "#PWR?" H 3850 3450 50  0001 C CNN
-F 1 "GND" H 3855 3527 50  0000 C CNN
-F 2 "" H 3850 3700 50  0001 C CNN
-F 3 "" H 3850 3700 50  0001 C CNN
-	1    3850 3700
+P 2425 3700
+F 0 "#PWR?" H 2425 3450 50  0001 C CNN
+F 1 "GND" H 2430 3527 50  0000 C CNN
+F 2 "" H 2425 3700 50  0001 C CNN
+F 3 "" H 2425 3700 50  0001 C CNN
+	1    2425 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:R R1
 U 1 1 60B5037A
-P 4150 1925
-F 0 "R1" H 4200 1975 50  0000 L CNN
-F 1 "1M" H 4200 1900 50  0000 L CNN
-F 2 "" H 4150 1925 50  0001 C CNN
-F 3 "~" H 4150 1925 50  0001 C CNN
-	1    4150 1925
+P 2725 1925
+F 0 "R1" H 2775 1975 50  0000 L CNN
+F 1 "1M" H 2775 1900 50  0000 L CNN
+F 2 "" H 2725 1925 50  0001 C CNN
+F 3 "~" H 2725 1925 50  0001 C CNN
+	1    2725 1925
 	1    0    0    -1  
 $EndComp
-Connection ~ 4150 2250
+Connection ~ 2725 2250
 $Comp
 L pspice:R R2
 U 1 1 60B5128C
-P 4375 1925
-F 0 "R2" H 4425 1975 50  0000 L CNN
-F 1 "1M" H 4425 1900 50  0000 L CNN
-F 2 "" H 4375 1925 50  0001 C CNN
-F 3 "~" H 4375 1925 50  0001 C CNN
-	1    4375 1925
+P 2950 1925
+F 0 "R2" H 3000 1975 50  0000 L CNN
+F 1 "1M" H 3000 1900 50  0000 L CNN
+F 2 "" H 2950 1925 50  0001 C CNN
+F 3 "~" H 2950 1925 50  0001 C CNN
+	1    2950 1925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 2950 4150 3025
+	2725 2950 2725 3025
 Wire Wire Line
-	4300 2400 4300 2325
+	2875 2400 2875 2325
 Wire Wire Line
-	4300 2325 4950 2325
+	2875 2325 3525 2325
 $Comp
 L pspice:CAP C2
 U 1 1 60B56DA6
-P 4950 2675
-F 0 "C2" H 4772 2629 50  0000 R CNN
-F 1 "10nF" H 4772 2720 50  0000 R CNN
-F 2 "" H 4950 2675 50  0001 C CNN
-F 3 "~" H 4950 2675 50  0001 C CNN
-	1    4950 2675
+P 3525 2675
+F 0 "C2" H 3347 2629 50  0000 R CNN
+F 1 "10nF" H 3347 2720 50  0000 R CNN
+F 2 "" H 3525 2675 50  0001 C CNN
+F 3 "~" H 3525 2675 50  0001 C CNN
+	1    3525 2675
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4150 3025 5125 3025
+	2725 3025 3700 3025
 Wire Wire Line
-	3850 1500 3850 1575
+	2425 1500 2425 1575
 Wire Wire Line
-	4150 2175 4150 2250
+	2725 2175 2725 2250
 Wire Wire Line
-	4150 2250 4375 2250
+	2725 2250 2950 2250
 Wire Wire Line
-	4375 2175 4375 2250
-Connection ~ 4375 2250
+	2950 2175 2950 2250
+Connection ~ 2950 2250
 Wire Wire Line
-	4375 2250 4550 2250
+	2950 2250 3125 2250
 Wire Wire Line
-	4150 1675 4150 1575
+	2725 1675 2725 1575
 Wire Wire Line
-	4150 1575 4375 1575
+	2725 1575 2950 1575
 Wire Wire Line
-	4375 1575 4375 1675
+	2950 1575 2950 1675
 Wire Wire Line
-	4150 1575 3850 1575
-Connection ~ 4150 1575
-Connection ~ 3850 1575
+	2725 1575 2425 1575
+Connection ~ 2725 1575
+Connection ~ 2425 1575
 Wire Wire Line
-	3850 1575 3850 2400
+	2425 1575 2425 2400
 Wire Wire Line
-	4300 2950 4300 3175
+	2875 2950 2875 3175
 Wire Wire Line
-	4300 3175 3600 3175
+	2875 3175 2175 3175
 Wire Wire Line
-	3600 3175 3600 1575
+	2175 3175 2175 1575
 Wire Wire Line
-	3600 1575 3850 1575
+	2175 1575 2425 1575
 Wire Wire Line
-	4000 2400 4000 2250
-NoConn ~ 4000 2250
+	2575 2400 2575 2250
+NoConn ~ 2575 2250
 Wire Wire Line
-	4950 2325 4950 2425
+	3525 2325 3525 2425
 Wire Wire Line
-	4950 2925 4950 3675
+	3525 2925 3525 3675
 $Comp
 L Custom_Symbols_Library:SW_PUSH_BUTTON SW1
 U 1 1 60B64A26
-P 3325 3100
-F 0 "SW1" H 3400 3275 50  0000 R CNN
-F 1 "SW_PUSH_BUTTON" H 3325 3264 50  0001 C CNN
-F 2 "" H 3325 3100 50  0000 C CNN
-F 3 "" H 3325 3100 50  0000 C CNN
-	1    3325 3100
+P 1900 3100
+F 0 "SW1" H 1975 3275 50  0000 R CNN
+F 1 "SW_PUSH_BUTTON" H 1900 3264 50  0001 C CNN
+F 2 "" H 1900 3100 50  0000 C CNN
+F 3 "" H 1900 3100 50  0000 C CNN
+	1    1900 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 3100 4550 3175
+	3125 3100 3125 3175
 Wire Wire Line
-	3850 3675 4550 3675
-Connection ~ 4550 3675
+	2425 3675 3125 3675
+Connection ~ 3125 3675
 Wire Wire Line
-	4550 3675 4950 3675
+	3125 3675 3525 3675
 Wire Wire Line
-	3125 3100 3050 3100
+	1700 3100 1625 3100
 Wire Wire Line
-	3525 3100 4000 3100
-Connection ~ 4000 3100
+	2100 3100 2575 3100
+Connection ~ 2575 3100
 Wire Wire Line
-	3050 3100 3050 3675
+	1625 3100 1625 3675
 Wire Wire Line
-	3050 3675 3850 3675
-Text GLabel 5125 3025 2    50   Input ~ 0
+	1625 3675 2425 3675
+Text GLabel 3700 3025 2    50   Input ~ 0
 Clock_Logic
 $Comp
 L power:VCC #PWR?
 U 1 1 60B70F2F
-P 3100 1800
-F 0 "#PWR?" H 3100 1650 50  0001 C CNN
-F 1 "VCC" H 3115 1973 50  0000 C CNN
-F 2 "" H 3100 1800 50  0001 C CNN
-F 3 "" H 3100 1800 50  0001 C CNN
-	1    3100 1800
+P 1675 1800
+F 0 "#PWR?" H 1675 1650 50  0001 C CNN
+F 1 "VCC" H 1690 1973 50  0000 C CNN
+F 2 "" H 1675 1800 50  0001 C CNN
+F 3 "" H 1675 1800 50  0001 C CNN
+	1    1675 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60B717CD
-P 3100 2450
-F 0 "#PWR?" H 3100 2200 50  0001 C CNN
-F 1 "GND" H 3100 2275 50  0000 C CNN
-F 2 "" H 3100 2450 50  0001 C CNN
-F 3 "" H 3100 2450 50  0001 C CNN
-	1    3100 2450
+P 1675 2450
+F 0 "#PWR?" H 1675 2200 50  0001 C CNN
+F 1 "GND" H 1675 2275 50  0000 C CNN
+F 2 "" H 1675 2450 50  0001 C CNN
+F 3 "" H 1675 2450 50  0001 C CNN
+	1    1675 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:CAP C3
 U 1 1 60B71FF1
-P 3100 2125
-F 0 "C3" H 2922 2079 50  0000 R CNN
-F 1 "10nF" H 2922 2170 50  0000 R CNN
-F 2 "" H 3100 2125 50  0001 C CNN
-F 3 "~" H 3100 2125 50  0001 C CNN
-	1    3100 2125
+P 1675 2125
+F 0 "C3" H 1497 2079 50  0000 R CNN
+F 1 "10nF" H 1497 2170 50  0000 R CNN
+F 2 "" H 1675 2125 50  0001 C CNN
+F 3 "~" H 1675 2125 50  0001 C CNN
+	1    1675 2125
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3100 2375 3100 2450
+	1675 2375 1675 2450
 Wire Wire Line
-	3100 1875 3100 1800
+	1675 1875 1675 1800
 Wire Notes Line
-	4050 2200 4575 2200
+	2625 2200 3150 2200
 Wire Notes Line
-	4575 1525 4050 1525
+	3150 1525 2625 1525
 Wire Notes Line
-	4050 1525 4050 2200
+	2625 1525 2625 2200
 Wire Notes Line
-	4575 2200 4575 1525
-Text Notes 4050 1500 0    50   ~ 0
+	3150 2200 3150 1525
+Text Notes 2625 1500 0    50   ~ 0
 R1 || R2 = 500k
-Text Notes 1000 6025 0    50   ~ 0
-Concept of Operation:\n\nWhen SW1 is open, C1 will charge through R1 and R2 which act in parallel to provide an equivalent resistance of 500kΩ. \nThe resistance of R1||R2, paired with the 80nF capacitance of C1, charges C1 to 66% of Vcc in about 40ms, at which point the threshold comparater \nwill trigger and the 555 output will be held in a low state (The values I chose for this RC circuit are based on the compnent values which come with the\n8-Bit Breadboard Computer kit, as well as what timing felt best in my own testing while maintaining good debounce properties. They are ultimately arbitrary, \nand I’d encourage you to experiment with values on your own).\n\nWhen SW1 is depressed, a direct path is created between C1 and GND causing C1 to discharge practically instantaneously, \ndropping the voltage on the TRIG pin below 33% of Vcc and latching the 555 output to a high state while SW1 remains held. \nIf the button contact is intermittent, the 555 output will not return to low unless the threshold voltage is allowed to return to 66% of Vcc \nwhich should only happen when SW1 is intentionally released and 40ms are allowed to pass with SW1 open.\n\nThe DISCH pin is not utilized in this circuit and should not be connected to anything.\n\nThe CONT pin’s purpose is to adjust the voltages at which the THRES and TRIG pins latch the 555’s internal SR latch. \nBecuase we do not want to use this feature, we place C2 between CONT and GROUND to resist voltage variations on this pin from outside interferences.\n\nC3 provides power smoothing to the Vcc and GND rails which results in much cleaner state transitions on the 555 output.
+Text Notes 1000 6100 0    50   ~ 0
+Concept of Operation:\n\nWhen SW1 is open, C1 will charge through R1 and R2 which act in parallel to provide an equivalent resistance of 500kΩ. \nThe resistance of R1||R2, paired with the 80nF capacitance of C1, charges C1 to 66% of Vcc in about 40ms, at which point the threshold comparater \nwill trigger and the 555 output will be held in a low state (The values I chose for this RC circuit are based on the compnent values which come with the\n8-Bit Breadboard Computer kit, as well as what timing felt best in my own testing while maintaining good debounce properties. They are ultimately arbitrary, \nand I’d encourage you to experiment with values on your own).\n\nWhen SW1 is depressed, a direct path is created between C1 and GND causing C1 to discharge practically instantaneously, \ndropping the voltage on the TRIG pin below 33% of Vcc and latching the 555 output to a high state while SW1 remains held. \nIf the button contact is intermittent, the 555 output will not return to low unless the threshold voltage is allowed to return to 66% of Vcc \nwhich should only happen when SW1 is intentionally released and 40ms are allowed to pass with SW1 open.\n\nThe DISCH pin is not utilized in this circuit and should not be connected to anything.\n\nThe CONT pin’s purpose is to adjust the voltages at which the THRES and TRIG pins latch the 555’s internal SR latch. \nBecuase we do not want to use this feature, we place C2 between CONT and GROUND to resist voltage variations on this pin from outside interferences.\n\nThe RESET pin is tied to Vcc in order to avoid being accidentally triggered.\n\nC3 provides power smoothing to the Vcc and GND rails which results in much cleaner state transitions on the 555 output.
 $EndSCHEMATC
