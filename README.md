@@ -1,4 +1,4 @@
-# Monostable 555 Tactile Switch Decounce Circuit
+# Monostable 555 Tactile Switch Debounce Circuit
 
 > Designed as an alternative to the monostable 555 timer circuit used in Ben Eater's 8-bit breadboard computer. 
 
